@@ -1,0 +1,164 @@
+@font-face {
+    font-family:"Roboto" ;
+    src: url(Roboto/Roboto-Black.ttf) format("truetype");
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+    
+}
+
+/*First page started*/
+.hero
+{
+  height: 100vh;
+  width: 100%;
+  background-color: #1F2937;
+  background-size: cover;
+  background-position: center;
+
+}
+
+nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+
+}
+
+.logo
+{
+  width: 150px;
+  cursor: pointer;
+}
+
+nav ul li 
+{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+
+}
+
+nav ul li a
+{
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+nav ul li a:hover
+{
+  color: #FFBD59;
+}
+
+/*First page ended*/
+/*second part started*/
+.about img{
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.about-text
+{
+    width: 550px;
+}
+
+.main
+{
+    width: 1130px;
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text h1
+{
+    color: aliceblue;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px ;
+    
+
+}
+span
+{
+    color: #FFBD59;
+}
+
+.about-text p
+{
+    color: #E5E7EB;
+    letter-spacing: 1px;
+   line-height: 20px;
+}
+
+/*--------------Projects Page is started------------------*/
+
+.projects
+{
+   
+    background-color: #1F2937;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.center h2
+{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family:'Courier New', Courier, monospace;
+    color: antiquewhite;
+    
+}
+
+.projects-content
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(370px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.5rem;
+
+}
+
+.row img
+{
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.row p
+{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+
+
+.row img:hover 
+{
+    transform: scale(1.1);
+}
