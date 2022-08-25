@@ -177,7 +177,11 @@ nav ul li a:hover
   overflow: hidden;
   text-align: center;
 }
-
+.card:hover 
+{
+  background-color: #3882F6;
+  transform: scale(1.2);
+}
 .card span
 {
   font-size: 45px;
@@ -198,8 +202,9 @@ h5
 {
   color:#1F2937 ;
   font-weight: lighter;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 13px;
+  line-height: 20px;
+  
   
 }
 /* our service part is done*/
