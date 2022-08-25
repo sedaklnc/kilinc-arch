@@ -3,14 +3,12 @@
     src: url(Roboto/Roboto-Black.ttf) format("truetype");
 }
 
-
 *
 {
     margin: 0;
     padding: 0;
     font-family: "Roboto";
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 
 /*First page started*/
@@ -21,7 +19,6 @@
   background-color: #1F2937;
   background-size: cover;
   background-position: center;
-
 }
 
 nav
@@ -46,15 +43,13 @@ nav ul li
   list-style-type: none;
   display: inline-block;
   padding: 10px 25px;
-
 }
 
 nav ul li a
 {
   color: #E5E7EB;
   text-decoration: none;
-  font-size: 18px;
-  
+  font-size: 18px; 
 }
 
 nav ul li a:hover
@@ -67,8 +62,7 @@ nav ul li a:hover
 .about img{
     height: auto;
     width: 300px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
 .about-text
@@ -92,8 +86,6 @@ nav ul li a:hover
     font-size: 70px;
     text-transform: capitalize;
     margin-bottom: 20px ;
-    
-
 }
 span
 {
@@ -125,8 +117,7 @@ span
     font-size: 30px;
     margin-bottom: 15px;
     font-family:'Courier New', Courier, monospace;
-    color: antiquewhite;
-    
+    color: antiquewhite;   
 }
 
 .projects-content
@@ -136,7 +127,6 @@ span
     grid-gap: 2rem;
     align-items: center;
     margin-top: 4.5rem;
-
 }
 
 .row img
@@ -146,7 +136,6 @@ span
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
-
 }
 
 .row p
@@ -155,8 +144,6 @@ span
     font-size: 15px;
     color: antiquewhite;
 }
-
-
 
 .row img:hover 
 {

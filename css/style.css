@@ -19,7 +19,6 @@
   background-color: #1F2937;
   background-size: cover;
   background-position: center;
-
 }
 
 nav
@@ -30,7 +29,6 @@ nav
   padding-top: 45px;
   padding-left: 8%;
   padding-right: 8%;
-
 }
 
 .logo
@@ -44,7 +42,6 @@ nav ul li
   list-style-type: none;
   display: inline-block;
   padding: 10px 25px;
-
 }
 
 nav ul li a
@@ -52,14 +49,11 @@ nav ul li a
   color: #E5E7EB;
   text-decoration: none;
   font-size: 18px;
-  
 }
 
 nav ul li a:hover
 {
   color: #FFBD59;
-  
- 
 }
 
 .content
@@ -68,7 +62,6 @@ nav ul li a:hover
   top: 50%;
   left: 8%;
   transform: translateY(-50%);
-
 }
 
 .content>h1
@@ -79,14 +72,12 @@ nav ul li a:hover
   margin: 20px 0px 20px;
 }
 
-
 .content>h4
 {
   font-size: 18px;
   color: #E5E7EB;
   margin-bottom: 50px;
   font-weight: lighter;
-  
 }
 
 .btn-signup 
@@ -94,7 +85,6 @@ nav ul li a:hover
   width: 380px;
   max-width: 100%;
   position: relative;
-
 }
 
 .btn-signup  input
@@ -106,7 +96,6 @@ nav ul li a:hover
   color: white;
   border: #3882F6;
   border-radius: 8px;
-
 }
 
 .btn-signup  input:hover
@@ -114,8 +103,6 @@ nav ul li a:hover
   background-color: transparent;
   border : 2px solid #3882F6;
 }
-
-
 
 .photo
 {
@@ -126,8 +113,6 @@ nav ul li a:hover
   margin-left: 56em;
   margin-bottom: 10em;
   border-radius: 3px;
-
-
 }
 
 /* First Part Ended*/
@@ -144,7 +129,6 @@ nav ul li a:hover
 
 .title h2
 {
-
   color: #1F2937;;
   font-size: 50px;
   width: 1130px;
@@ -152,17 +136,16 @@ nav ul li a:hover
   text-align: center;
 }
 
-/*kutucuklar yukari asagi*/
+/*box design*/
 .box
 {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 300px;
-  
+  min-height: 300px; 
 }
 
-/*elemanlari birbirinden ayiriyor ve boyutlaari*/
+/*add some whitespace*/
 .card
 {
   height: 200px;
@@ -173,15 +156,16 @@ nav ul li a:hover
   border-radius: 20px;
   margin: 15px;
   position: relative;
-  /*bakilsin*/
   overflow: hidden;
   text-align: center;
 }
+
 .card:hover 
 {
   background-color: #3882F6;
   transform: scale(1.2);
 }
+
 .card span
 {
   font-size: 45px;
@@ -204,20 +188,15 @@ h5
   font-weight: lighter;
   font-size: 13px;
   line-height: 20px;
-  
-  
 }
 /* our service part is done*/
-/*ozlu soz kismi basladi*/
+/*apophthegm*/
 .apophthegm
 {
   background-color: #E5E7EB;
   width: 100%;
   padding: 100px 0px;
-
-  /*yaziyi ortalar*/
   align-items: center;
-
 }
 
 .apop-content
@@ -227,7 +206,6 @@ h5
   margin: 0 auto;
   display: flex;
   padding-left: 200px;
-
 }
 
 
@@ -236,20 +214,18 @@ h5
   font-size: 36px;
   font-style: italic;
   font-family: "Roboto";
-  font-weight: lighter;
-  
+  font-weight: lighter; 
 }
 
 .apophthegm h5
-{
-  
+{ 
   margin-left:200px;
   display: flex;
   padding-left: 1000px;
 }
-/* ozlu soz kismi bitti*/
+/*apophthegm is done*/
 
-/*signup kismi baladi*/
+/*signup part is started*/
 
 .sign-up
 {
@@ -260,12 +236,10 @@ h5
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*yaziyi ortaya getiriyor*/
   align-items: center;
   border-radius: 5px;
   margin: 100px auto auto auto;
   word-spacing: 2px;
-  
 } 
 
 .sign-up h4
@@ -275,8 +249,7 @@ h5
   padding-right:23em;
   font-size: 20px;
   font-family: 'Roboto';
-  font-weight: bolder;
-  
+  font-weight: bolder; 
 }
 
 
@@ -288,8 +261,6 @@ h5
   padding-top: 8px;
   padding-left: 8%;
   padding-right: 8%;
-  
-  
 }
 
 .sign-up p
@@ -298,13 +269,11 @@ h5
   align-items: center;
   justify-content: center;
   word-spacing: 10px;
-  padding-right: 100px;
-  
+  padding-right: 100px; 
 }
 
 .last-button
-{
-  
+{ 
   align-items: center;
   width: 100px;
   max-width: 100%;
@@ -314,7 +283,6 @@ h5
   color: #E5E7EB;
   border: 2px solid #E5E7EB;
   border-radius: 8px;
-  
 }
 
 /*Footer is started*/
@@ -327,11 +295,9 @@ footer
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
-  
+  margin-top: 100px; 
 }
 
-/*kardesim burasi yan yana yazdirioyr*/
 .social
 {
   display: flex;
@@ -340,8 +306,7 @@ footer
   margin-top: 25px;
   padding-left: 8%;
   padding-right: 8%;
-  color: #E5E7EB;
-  
+  color: #E5E7EB; 
 }
 
 
