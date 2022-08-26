@@ -158,6 +158,7 @@ nav ul li a:hover
   position: relative;
   overflow: hidden;
   text-align: center;
+  transition: all 700ms ease-in-out;
 }
 
 .card:hover 
